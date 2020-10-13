@@ -1,1 +1,375 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+}
+
+.slajd {
+  margin: 2vh 20vw;
+  width: 60vw;
+}
+
+.tekst {
+  margin: 5vh 15vh;
+}
+
+p.motto {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  margin: 50px 50px;
+}
+
+@media(max-width:1024px) {
+  p.motto {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 30px 20px;
+  }
+}
+
+@media(max-width:360px) {
+  p.motto {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 20px 10px;
+  }
+}
+
+section {
+  max-width: 1920px;
+  margin: 20px auto;
+}
+
+section h2 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px gray;
+  background-color: lightgray;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media(max-width:1024px) {
+  section h2 {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+}
+
+h3 {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media(max-width:1024px) {
+  section h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 360px) {
+  section h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+ul {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 50px;
+  line-height: 20px;
+}
+
+@media(max-width: 1024px) {
+  ul {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px 20px;
+  }
+}
+
+@media(max-width: 360px) {
+  ul {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 5px 10px;
+  }
+}
+
+li {
+  font-size: 16px;
+  list-style-type: circle;
+  list-style-position: inside;
+  text-align: left;
+  margin: 10px 50px;
+  line-height: 20px;
+  font-weight: normal;
+
+}
+
+@media(max-width:1024px) {
+  li {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5px 20px;
+  }
+}
+
+@media(max-width: 360px) {
+  li {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 5px 10px;
+  }
+}
+
+section.oferta div.spis li {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  list-style-type: none;
+  text-align: center;
+  margin: 15px auto;
+}
+
+@media(max-width:1024px) {
+  section.oferta div.spis li {
+    font-size: 16px;
+    margin: 5px auto;
+  }
+}
+
+@media(max-width: 360px) {
+  section.oferta div.spis li {
+    font-size: 12px;
+  }
+}
+
+section p {
+  font-size: 16px;
+  margin: 20px 50px;
+  text-align: center;
+  line-height: 24px;
+}
+
+@media(max-width: 1024px) {
+  section p {
+    font-size: 15px;
+    margin: 5px 10px;
+  }
+}
+
+@media(max-width: 360px) {
+  section p {
+    font-size: 10px;
+    margin: 5px 10px;
+  }
+}
+
+section.cennik p {
+  font-size: 20px;
+  margin: 50px 50px;
+  text-align: center;
+  line-height: 30px;
+}
+
+@media(max-width: 1024px) {
+  section.cennik p {
+    font-size: 15px;
+    margin: 30px 40px;
+    line-height: 20px;
+  }
+}
+
+@media(max-width: 360px) {
+  section.cennik p {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 20px 10px;
+  }
+}
+
+p.powrot a {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+@media(max-width:1024px) {
+  p.powrot a {
+    font-size: 12px;
+  }
+}
+
+div.foto {
+  margin: 0 7vw;
+}
+
+@media(max-width:1024px) {
+  div.foto {
+    margin: 0 2vw;
+  }
+}
+
+img {
+  width: 50%;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+
+section.kontakt i {
+  color: gray;
+  font-size: 30px;
+  padding: 7px;
+  text-align: left;
+  display: inline-block;
+  margin-left: 15vw;
+}
+
+@media(max-width: 1024px) {
+  section.kontakt i {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10vw;
+  }
+}
+
+@media(max-width: 360px) {
+  section.kontakt i {
+    font-size: 16px;
+    padding: 3px;
+    margin-left: 5vw;
+  }
+}
+
+section.kontakt p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 20px;
+}
+
+@media(max-width: 1024px) {
+  section.kontakt p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+@media(max-width: 360px) {
+  section.kontakt p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+section.kontakt a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  margin-top: 120vh;
+  padding: 10px;
+  font-size: 18px;
+  margin: 30px auto 0 auto;
+}
+
+.aktywneLogo {
+  color: black;
+}
+
+/* galeria masonry */
+.gallery {
+  column-rule: 0px solid #eee;
+  column-gap: 17px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery.gallery-columns-3 {
+  -webkit-column-count: 3;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 3;
+  /* Firefox */
+  column-count: 3;
+}
+
+@media only screen and (max-width: 1023px) {
+  .gallery.gallery-columns-3 {
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
+    column-count: 2;
+  }
+}
+
+
+@media only screen and (max-width: 720px) {
+  .gallery.gallery-columns-3 {
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-count: 1;
+  }
+}
+
+
+.gallery .gallery-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 17px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.gallery .gallery-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
