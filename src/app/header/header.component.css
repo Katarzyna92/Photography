@@ -31,6 +31,11 @@ header h2 {
   font-family: 'Raleway', sans-serif;
 }
 
+@media(max-width: 992px){
+  .menu a{
+    font-size: 12px;
+  }
+}
 /* .hidden{display: none;} */
 
 .menu :hover {
