@@ -1,0 +1,32 @@
+.reportage__motto {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  margin: 50px 50px;
+}
+
+@media(max-width:1024px) {
+  .reportage__motto {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 30px 20px;
+  }
+}
+
+@media(max-width:360px) {
+  .reportage__motto {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 20px 10px;
+  }
+}
+
+.reportage__list--services {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  list-style-type: none;
+  text-align: center;
+  margin: 15px auto;
+}
