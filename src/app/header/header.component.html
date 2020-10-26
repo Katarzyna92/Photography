@@ -1,18 +1,24 @@
+<a class="back" href="#"><i class="fas fa-angle-double-up"></i></a>
+
 <nav class="menu">
-  <ul class="menu__list">
-    <li class="menu__item"><a href="#" class="menu__link" routerLink="/portfolio">Portfolio</a>
+  <ul class="menu__list navbar">
+    <li class="menu__item nav-item"><a href="#" class="menu__link nav-link" routerLink="/portfolio">Portfolio</a>
     </li>
-    <li class="menu__item"><a href="#" class="menu__link dropdown-toggle" routerLink="/reportaz">Reportaż</a>
+
+    <li class="menu__item nav-item dropdown">
+      <a href="#" class="menu__link nav-link dropdown-toggle" routerLink="/reportaz" role="button" data-toggle="dropdown">Reportaż</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Chrzest</a>
-        <a class="dropdown-item" href="#">Komunia</a>
-        <a class="dropdown-item" href="#">Sesje ciążowe</a>
-        <a class="dropdown-item" href="#">Sesje świąteczne</a>
+        <a class="dropdown-item" href="#" routerLink="/reportaz">Chrzest</a>
+        <a class="dropdown-item" href="#" routerLink="/reportaz">Komunia</a>
+        <a class="dropdown-item" href="#" routerLink="/reportaz">Sesje ciążowe</a>
+        <a class="dropdown-item" href="#" routerLink="/reportaz">Sesje świąteczne</a>
       </div>
     </li>
-    <li class="menu__item"><a href="#" class="menu__link" routerLink="/oferta">Oferta</a></li>
-    <li class="menu__item"><a href="#" class="menu__link" routerLink="/cennik">Cennik</a></li>
-    <li class="menu__item"><a href="#" class="menu__link" routerLink="/kontakt">Kontakt</a></li>
+
+    <li class="menu__item nav-item"><a href="#" class="menu__link nav-link" routerLink="/oferta">Oferta</a></li>
+    <li class="menu__item nav-item"><a href="#" class="menu__link nav-link" routerLink="/cennik">Cennik</a></li>
+    <li class="menu__item nav-item"><a href="#" class="menu__link nav-link" routerLink="/kontakt">Kontakt</a></li>
+
   </ul>
 </nav>
 

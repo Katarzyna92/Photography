@@ -14,15 +14,12 @@
 
 .menu {
   text-align: center;
-  overflow: hidden;
 }
 
 .menu__item {
   display: inline-block;
   list-style-type: none;
   width: 10%;
-  /* margin: 20px; */
-  padding: 5vh;
 }
 
 .menu__link {
@@ -41,4 +38,28 @@
 
 .menu__item :hover {
   font-weight: bold;
+}
+
+.back {
+  display: block;
+  font-size: 40px;
+  position: fixed;
+  top: 5%;
+  left: 95%;
+  z-index: 1;
+  color: silver;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  margin: 1% 8%;
 }
