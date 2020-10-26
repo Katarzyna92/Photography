@@ -1,12 +1,21 @@
 <nav class="menu">
   <ul class="menu__list">
-    <li class="menu__item"><a href="#" class="menu__link" routerLink="/portfolio">Portfolio</a></li>
-    <li class="menu__item"><a href="#" class="menu__link" routerLink="/reportaz">Reportaż</a></li>
+    <li class="menu__item"><a href="#" class="menu__link" routerLink="/portfolio">Portfolio</a>
+    </li>
+    <li class="menu__item"><a href="#" class="menu__link dropdown-toggle" routerLink="/reportaz">Reportaż</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Chrzest</a>
+        <a class="dropdown-item" href="#">Komunia</a>
+        <a class="dropdown-item" href="#">Sesje ciążowe</a>
+        <a class="dropdown-item" href="#">Sesje świąteczne</a>
+      </div>
+    </li>
     <li class="menu__item"><a href="#" class="menu__link" routerLink="/oferta">Oferta</a></li>
     <li class="menu__item"><a href="#" class="menu__link" routerLink="/cennik">Cennik</a></li>
     <li class="menu__item"><a href="#" class="menu__link" routerLink="/kontakt">Kontakt</a></li>
   </ul>
 </nav>
+
 
 <header class="banner">
   <h1 class="banner__title">Fotografia</h1>
