@@ -20,17 +20,6 @@ html {
   width: 60vw;
 }
 
-.text {
-  margin: 5vh 15vh;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-
-section {
-  max-width: 1920px;
-  margin: 20px auto;
-}
 
 .article-title {
   padding: 10px;
@@ -38,26 +27,20 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 10vh;
   font-family: 'Raleway', sans-serif;
 }
 
-@media(max-width:1024px) {
+@media(max-width:1200px) {
   .article-title {
     font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 600px) {
   .article-title {
     font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
   }
 }
 
@@ -79,7 +62,7 @@ section {
   column-count: 3;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1200px) {
   .gallery.gallery-columns-3 {
     -webkit-column-count: 2;
     /* Chrome, Safari, Opera */
@@ -90,7 +73,7 @@ section {
 }
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .gallery.gallery-columns-3 {
     -webkit-column-count: 1;
     /* Chrome, Safari, Opera */

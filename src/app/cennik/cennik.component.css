@@ -1,22 +1,20 @@
 .price-list__paragraph {
   font-size: 20px;
-  margin: 50px 50px;
   text-align: center;
   line-height: 30px;
+  margin: 5vh 15vw;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1200px) {
   .price-list__paragraph {
     font-size: 15px;
-    margin: 30px 40px;
     line-height: 20px;
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 600px) {
   .price-list__paragraph {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
-    margin: 20px 10px;
   }
 }

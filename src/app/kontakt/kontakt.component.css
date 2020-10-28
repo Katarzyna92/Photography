@@ -4,22 +4,18 @@
   padding: 7px;
   text-align: left;
   display: inline-block;
-  margin-left: 15vw;
+  margin-left: 20vw;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1200px) {
   .contact__icon {
     font-size: 20px;
-    padding: 5px;
-    margin-left: 10vw;
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 600px) {
   .contact__icon {
     font-size: 16px;
-    padding: 3px;
-    margin-left: 5vw;
   }
 }
 
@@ -29,17 +25,17 @@
   line-height: 20px;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1200px) {
   .contact__paragraph {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 600px) {
   .contact__paragraph {
     font-size: 12px;
-    line-height: 15px;
+    line-height: 18px;
   }
 }
 

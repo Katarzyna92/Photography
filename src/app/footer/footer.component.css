@@ -6,3 +6,9 @@
   font-size: 18px;
   margin: 5vh auto;
 }
+
+@media(max-width:1200px) {
+  .footer__copyright-info {
+    font-size: 12px;
+  }
+}
