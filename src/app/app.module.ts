@@ -12,6 +12,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
+import { Reportaz1Component } from './reportaz1/reportaz1.component';
+import { Reportaz2Component } from './reportaz2/reportaz2.component';
+import { Reportaz3Component } from './reportaz3/reportaz3.component';
+import { Reportaz4Component } from './reportaz4/reportaz4.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { FormsModule } from '@angular/forms';
     PortfolioComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    Reportaz1Component,
+    Reportaz2Component,
+    Reportaz3Component,
+    Reportaz4Component
   ],
   imports: [
     BrowserModule,
