@@ -82,12 +82,13 @@
   margin: 5vh 15vw;
 }
 
+
 .slider__img{
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
   width: 100%;
-  display: inline-block;
-  vertical-align: top;
+  /* display: inline-block; */
+  /* vertical-align: top; */
 }
